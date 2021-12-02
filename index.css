@@ -402,7 +402,9 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--white);
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
-
+.about__photo {
+    width: 62%;
+}
 .nav__link:hover {
     color: var(--pink);
 }
@@ -555,7 +557,6 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
-
 .about__content {
     display: flex;
     flex-direction: row-reverse;
