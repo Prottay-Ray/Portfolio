@@ -118,7 +118,7 @@ img {
     display: flex;
     justify-content: space-around;
 }
-#skills > img {
+#skl-btn > img {
     height: 50px;
     width: 50px;
 }
@@ -426,7 +426,14 @@ body:not(.user-is-tabbing) a:focus {
     background-attachment: fixed;
     font-size: var(--font-size-normal);
 }
-
+.skl-btn {
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 65px;
+    width: 65px;
+    font-size: 16px;
+}
 .header__text {
     position: absolute;
     top: 50%;
