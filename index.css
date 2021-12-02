@@ -560,6 +560,7 @@ body:not(.user-is-tabbing) a:focus {
 .about__content {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -573,7 +574,9 @@ body:not(.user-is-tabbing) a:focus {
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
 }
-
+#profile_pic {
+    margin-left: 20%;
+}
 @media(min-width: 901px) {
     .about__text {
         flex: 0 0 35%;
@@ -599,7 +602,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .footer {
     text-align: center;
-    padding: var(--gutter-medium) 0 var(--gutter-normal);
+    padding-inline: var(--gutter-medium) 0 var(--gutter-normal);
 }
 
 .footer__social-links {
